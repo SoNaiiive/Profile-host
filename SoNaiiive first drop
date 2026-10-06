@@ -1,1 +1,196 @@
 # Profile-host
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linda Fernando — Corporate Affairs, Experiência de Marca e Reputação</title>
+    <style>
+        :root {
+            --bg-color: #0f1115;
+            --text-color: #e1e4e8;
+            --accent-color: #d4af37;
+            --muted-color: #8b949e;
+            --card-bg: #161b22;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: rgba(15, 17, 21, 0.9);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            border-bottom: 1px solid #30363d;
+            z-index: 1000;
+        }
+        header div {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+        }
+        header a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        header span {
+            color: var(--accent-color);
+        }
+        nav a {
+            margin-left: 1.5rem;
+            font-size: 0.9rem;
+            color: var(--muted-color);
+        }
+        nav a:hover {
+            color: var(--text-color);
+        }
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 8rem 2rem 4rem 2rem;
+        }
+        section {
+            margin-bottom: 6rem;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        .badge {
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            color: var(--accent-color);
+            text-transform: uppercase;
+        }
+        h1 {
+            font-size: 3.5rem;
+            margin: 0.5rem 0;
+            line-height: 1.1;
+        }
+        h1 em {
+            font-style: italic;
+            color: var(--accent-color);
+        }
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 0.5rem;
+        }
+        p {
+            color: var(--muted-color);
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .card {
+            background: var(--card-bg);
+            border: 1px solid #30363d;
+            padding: 2rem;
+            border-radius: 8px;
+        }
+        .card h3 {
+            margin-top: 0;
+            color: var(--text-color);
+        }
+        footer {
+            text-align: center;
+            padding: 3rem 0;
+            border-top: 1px solid #30363d;
+            color: var(--muted-color);
+            font-size: 0.9rem;
+        }
+        a.button {
+            display: inline-block;
+            background: var(--accent-color);
+            color: #000;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            font-weight: bold;
+            text-decoration: none;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>
+            <a href="#">Linda Fernando<span>.</span></a>
+            <nav>
+                <a href="#perfil">Perfil</a>
+                <a href="#actuacao">Actuação</a>
+                <a href="#projectos">Projectos</a>
+                <a href="#percurso">Percurso</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="badge">Comunicação Estratégica · Marcas · Reputação</div>
+            <h1>Linda<br><em>Fernando.</em></h1>
+            <p><strong>Consultora em Corporate Affairs, Experiência de Marca e Reputação</strong><br>Fundadora & CEO | Co-fundadora e Administradora, Media Craft Mozambique</p>
+            <p>Aconselhamento estratégico para posicionar organizações, construir reputação e alinhar a experiência de marca com as suas prioridades institucionais e de negócio.</p>
+            <div>
+                <a href="#contacto" class="button">Contacto profissional</a>
+            </div>
+        </section>
+
+        <section id="perfil">
+            <h2>Corporate Affairs, marcas e reputação.</h2>
+            <p>Linda Fernando é empresária e consultora em Corporate Affairs, experiência de marca e reputação. Com mais de duas décadas de experiência em televisão, telecomunicações e comunicação institucional, trabalha na ligação entre a estratégia de uma organização, a sua presença pública e as relações que sustentam a sua credibilidade.</p>
+            <p>É co-fundadora e Administradora da Media Craft Mozambique, e fundadora da Mweko Consultoria de Midia. O seu trabalho reúne aconselhamento estratégico, desenvolvimento de narrativas e capacidade de implementação.</p>
+        </section>
+
+        <section id="actuacao">
+            <h2>Áreas de actuação estratégica.</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Corporate Affairs e relações institucionais</h3>
+                    <p>Alinha a comunicação com as prioridades de negócio e com o contexto institucional.</p>
+                </div>
+                <div class="card">
+                    <h3>Comunicação estratégica e reputação</h3>
+                    <p>Aconselha instituições e empresas na definição do seu posicionamento e na construção de credibilidade.</p>
+                </div>
+                <div class="card">
+                    <h3>Estratégia e experiência de marca</h3>
+                    <p>Alinha identidade, narrativa e experiência para dar expressão ao propósito de uma organização.</p>
+                </div>
+                <div class="card">
+                    <h3>Eventos corporativos e diálogo institucional</h3>
+                    <p>Concebe e implementa conferências, fóruns e galas como plataformas de comunicação e relacionamento (MICE).</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto.</h2>
+            <p>Para consultas de comunicação estratégica, parcerias institucionais, projectos de conteúdos e eventos corporativos.</p>
+            <a href="https://www.linkedin.com/in/linda-fernando-4b82b2b3/" target="_blank" class="button">LinkedIn · Linda Fernando</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Linda Fernando · Maputo, Moçambique</p>
+    </footer>
+
+</body>
+</html>
